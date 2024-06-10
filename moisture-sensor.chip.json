@@ -1,0 +1,21 @@
+{
+  "name": "Moisture Sensor",
+  "author": "Chandru.M",
+  "pins": [
+    "VCC",
+    "GND",
+    "A0"
+  ],
+
+  "controls": 
+  [
+    {
+      "id": "moisture",
+      "label": "Soil Moisture",
+      "type": "range",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  ]
+}
